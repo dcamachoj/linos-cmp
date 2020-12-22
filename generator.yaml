@@ -8,6 +8,9 @@ actions:
   - type: delete
     args:
       - .git
+  - type: delete
+    args:
+      - README.md
   - type: rename
     args:
       - src/pages/name/name.css
