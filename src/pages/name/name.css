@@ -1,0 +1,8 @@
+.{{ .name }} {
+  text-align: center;
+  font-weight: bold;
+}
+
+.{{ .name }} > .small {
+  font-weight: normal;
+}

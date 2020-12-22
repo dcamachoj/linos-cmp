@@ -1,0 +1,22 @@
+is-project: true
+data:
+  hello: World
+files:
+  - src/pages/name/name.css
+  - src/pages/name/name.jsx
+actions:
+  - type: delete
+    args:
+      - .git
+  - type: rename
+    args:
+      - src/pages/name/name.css
+      - src/pages/name/{{ .name }}.css
+  - type: rename
+    args:
+      - src/pages/name/name.jsx
+      - src/pages/name/{{ .name }}.jsx
+  - type: rename
+    args:
+      - src/pages/name
+      - src/pages/{{ .name }}
