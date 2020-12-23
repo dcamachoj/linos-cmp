@@ -1,4 +1,4 @@
-is-project: true
+project: false
 data:
   hello: World
 files:
